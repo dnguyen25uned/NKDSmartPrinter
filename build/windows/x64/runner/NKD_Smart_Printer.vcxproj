@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Profile|x64">
+      <Configuration>Profile</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2AFA1F27-DF9D-353B-93CD-F624F1CD8A8E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>NKD_Smart_Printer</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\VSCode\nkd-smart-printer-2026-10-17-word-first\build\windows\x64\runner\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NKD_Smart_Printer.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NKD_Smart_Printer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">D:\VSCode\nkd-smart-printer-2026-10-17-word-first\build\windows\x64\runner\Profile\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">NKD_Smart_Printer.dir\Profile\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">NKD_Smart_Printer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\VSCode\nkd-smart-printer-2026-10-17-word-first\build\windows\x64\runner\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NKD_Smart_Printer.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NKD_Smart_Printer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral\.plugin_symlinks\desktop_drop\windows\include;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral\.plugin_symlinks\pdfx\windows\include;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral\.plugin_symlinks\printing\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>"4100"</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;_DEBUG;FLUTTER_VERSION="0.1.0+1";FLUTTER_VERSION_MAJOR=0;FLUTTER_VERSION_MINOR=1;FLUTTER_VERSION_PATCH=0;FLUTTER_VERSION_BUILD=1;NOMINMAX;UNICODE;_UNICODE;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_HAS_EXCEPTIONS=0;FLUTTER_VERSION=\"0.1.0+1\";FLUTTER_VERSION_MAJOR=0;FLUTTER_VERSION_MINOR=1;FLUTTER_VERSION_PATCH=0;FLUTTER_VERSION_BUILD=1;NOMINMAX;UNICODE;_UNICODE;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral\.plugin_symlinks\desktop_drop\windows\include;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral\.plugin_symlinks\pdfx\windows\include;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral\.plugin_symlinks\printing\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral\.plugin_symlinks\desktop_drop\windows\include;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral\.plugin_symlinks\pdfx\windows\include;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral\.plugin_symlinks\printing\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\flutter\Debug\flutter_wrapper_app.lib;dwmapi.lib;..\plugins\desktop_drop\Debug\desktop_drop_plugin.lib;..\plugins\pdfx\Debug\pdfx_plugin.lib;..\plugins\printing\Debug\printing_plugin.lib;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral\flutter_windows.dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/runner/Debug/NKD_Smart_Printer.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/runner/Debug/NKD_Smart_Printer.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <Manifest>
+      <AdditionalManifestFiles>D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\runner\runner.exe.manifest;</AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral\.plugin_symlinks\desktop_drop\windows\include;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral\.plugin_symlinks\pdfx\windows\include;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral\.plugin_symlinks\printing\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DisableSpecificWarnings>"4100"</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;FLUTTER_VERSION="0.1.0+1";FLUTTER_VERSION_MAJOR=0;FLUTTER_VERSION_MINOR=1;FLUTTER_VERSION_PATCH=0;FLUTTER_VERSION_BUILD=1;NOMINMAX;UNICODE;_UNICODE;CMAKE_INTDIR="Profile"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;FLUTTER_VERSION=\"0.1.0+1\";FLUTTER_VERSION_MAJOR=0;FLUTTER_VERSION_MINOR=1;FLUTTER_VERSION_PATCH=0;FLUTTER_VERSION_BUILD=1;NOMINMAX;UNICODE;_UNICODE;CMAKE_INTDIR=\"Profile\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral\.plugin_symlinks\desktop_drop\windows\include;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral\.plugin_symlinks\pdfx\windows\include;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral\.plugin_symlinks\printing\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral\.plugin_symlinks\desktop_drop\windows\include;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral\.plugin_symlinks\pdfx\windows\include;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral\.plugin_symlinks\printing\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\flutter\Profile\flutter_wrapper_app.lib;dwmapi.lib;..\plugins\desktop_drop\Profile\desktop_drop_plugin.lib;..\plugins\pdfx\Profile\pdfx_plugin.lib;..\plugins\printing\Profile\printing_plugin.lib;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral\flutter_windows.dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/runner/Profile/NKD_Smart_Printer.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/runner/Profile/NKD_Smart_Printer.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <Manifest>
+      <AdditionalManifestFiles>D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\runner\runner.exe.manifest;</AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral\.plugin_symlinks\desktop_drop\windows\include;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral\.plugin_symlinks\pdfx\windows\include;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral\.plugin_symlinks\printing\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DisableSpecificWarnings>"4100"</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;FLUTTER_VERSION="0.1.0+1";FLUTTER_VERSION_MAJOR=0;FLUTTER_VERSION_MINOR=1;FLUTTER_VERSION_PATCH=0;FLUTTER_VERSION_BUILD=1;NOMINMAX;UNICODE;_UNICODE;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;FLUTTER_VERSION=\"0.1.0+1\";FLUTTER_VERSION_MAJOR=0;FLUTTER_VERSION_MINOR=1;FLUTTER_VERSION_PATCH=0;FLUTTER_VERSION_BUILD=1;NOMINMAX;UNICODE;_UNICODE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral\.plugin_symlinks\desktop_drop\windows\include;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral\.plugin_symlinks\pdfx\windows\include;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral\.plugin_symlinks\printing\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral\cpp_client_wrapper\include;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral\.plugin_symlinks\desktop_drop\windows\include;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral\.plugin_symlinks\pdfx\windows\include;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral\.plugin_symlinks\printing\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\flutter\Release\flutter_wrapper_app.lib;dwmapi.lib;..\plugins\desktop_drop\Release\desktop_drop_plugin.lib;..\plugins\pdfx\Release\pdfx_plugin.lib;..\plugins\printing\Release\printing_plugin.lib;D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\ephemeral\flutter_windows.dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/runner/Release/NKD_Smart_Printer.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/runner/Release/NKD_Smart_Printer.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <Manifest>
+      <AdditionalManifestFiles>D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\runner\runner.exe.manifest;</AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\runner\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/VSCode/nkd-smart-printer-2026-10-17-word-first/windows/runner/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/VSCode/nkd-smart-printer-2026-10-17-word-first/windows -BD:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64 --check-stamp-file D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/runner/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\VSCode\nkd-smart-printer-2026-10-17-word-first\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule D:/VSCode/nkd-smart-printer-2026-10-17-word-first/windows/runner/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/VSCode/nkd-smart-printer-2026-10-17-word-first/windows -BD:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64 --check-stamp-file D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/runner/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">D:\VSCode\nkd-smart-printer-2026-10-17-word-first\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/VSCode/nkd-smart-printer-2026-10-17-word-first/windows/runner/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/VSCode/nkd-smart-printer-2026-10-17-word-first/windows -BD:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64 --check-stamp-file D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/runner/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\VSCode\nkd-smart-printer-2026-10-17-word-first\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\runner\flutter_window.cpp" />
+    <ClCompile Include="D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\runner\main.cpp" />
+    <ClCompile Include="D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\runner\utils.cpp" />
+    <ClCompile Include="D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\runner\win32_window.cpp" />
+    <ClCompile Include="D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\generated_plugin_registrant.cc" />
+    <ResourceCompile Include="D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\runner\Runner.rc" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\VSCode\nkd-smart-printer-2026-10-17-word-first\build\windows\x64\ZERO_CHECK.vcxproj">
+      <Project>{EBC66AA2-2814-34EA-9E7E-2D145E515CFE}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\VSCode\nkd-smart-printer-2026-10-17-word-first\build\windows\x64\plugins\desktop_drop\desktop_drop_plugin.vcxproj">
+      <Project>{78E750A7-34C8-33AC-8E10-AD2855216F9D}</Project>
+      <Name>desktop_drop_plugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\VSCode\nkd-smart-printer-2026-10-17-word-first\build\windows\x64\flutter\flutter_assemble.vcxproj">
+      <Project>{E3A9315E-3083-326D-AC9D-DA1051F8AA07}</Project>
+      <Name>flutter_assemble</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\VSCode\nkd-smart-printer-2026-10-17-word-first\build\windows\x64\flutter\flutter_wrapper_app.vcxproj">
+      <Project>{21ADE518-B412-3A39-A470-AF232751F76C}</Project>
+      <Name>flutter_wrapper_app</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\VSCode\nkd-smart-printer-2026-10-17-word-first\build\windows\x64\plugins\pdfx\pdfx_plugin.vcxproj">
+      <Project>{10D365C5-D85A-35ED-9A11-8AC7ECF4231E}</Project>
+      <Name>pdfx_plugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\VSCode\nkd-smart-printer-2026-10-17-word-first\build\windows\x64\plugins\printing\printing_plugin.vcxproj">
+      <Project>{D15BACBA-3BD4-3F0E-92AB-68ED6E13D732}</Project>
+      <Name>printing_plugin</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

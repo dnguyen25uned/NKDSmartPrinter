@@ -1,0 +1,16 @@
+D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/runner/Release/data/icudtl.dat
+D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/runner/Release/flutter_windows.dll
+D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/runner/Release/desktop_drop_plugin.dll
+D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/runner/Release/pdfx_plugin.dll
+D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/runner/Release/pdfium.dll
+D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/runner/Release/printing_plugin.dll
+D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/runner/Release/pdfium.dll
+D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/runner/Release/data/flutter_assets/AssetManifest.bin
+D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/runner/Release/data/flutter_assets/assets/app_logo.png
+D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/runner/Release/data/flutter_assets/FontManifest.json
+D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/runner/Release/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/runner/Release/data/flutter_assets/NativeAssetsManifest.json
+D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/runner/Release/data/flutter_assets/NOTICES.Z
+D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/runner/Release/data/flutter_assets/shaders/ink_sparkle.frag
+D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/runner/Release/data/flutter_assets/shaders/stretch_effect.frag
+D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/runner/Release/data/app.so

@@ -1,0 +1,14 @@
+# Target labels
+ pdfium-download
+# Source files and their labels
+D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/pdfium-download/CMakeFiles/pdfium-download
+D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/pdfium-download/CMakeFiles/0912eed8833c9368d00545d26c7fd104/pdfium-download.rule
+D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/pdfium-download/CMakeFiles/65a0c33ad7fa925b9bdf70163091ec61/pdfium-download-complete.rule
+D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/pdfium-download/CMakeFiles/9104780cbb7c561ad3c0c65900f3b682/pdfium-download-build.rule
+D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/pdfium-download/CMakeFiles/9104780cbb7c561ad3c0c65900f3b682/pdfium-download-configure.rule
+D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/pdfium-download/CMakeFiles/9104780cbb7c561ad3c0c65900f3b682/pdfium-download-download.rule
+D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/pdfium-download/CMakeFiles/9104780cbb7c561ad3c0c65900f3b682/pdfium-download-install.rule
+D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/pdfium-download/CMakeFiles/9104780cbb7c561ad3c0c65900f3b682/pdfium-download-mkdir.rule
+D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/pdfium-download/CMakeFiles/9104780cbb7c561ad3c0c65900f3b682/pdfium-download-patch.rule
+D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/pdfium-download/CMakeFiles/9104780cbb7c561ad3c0c65900f3b682/pdfium-download-test.rule
+D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/pdfium-download/CMakeFiles/9104780cbb7c561ad3c0c65900f3b682/pdfium-download-update.rule

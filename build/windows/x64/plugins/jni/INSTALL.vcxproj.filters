@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\VSCode\nkd-smart-printer-2026-10-17-word-first\build\windows\x64\CMakeFiles\ba51c94d5f902769652a91ab2287dd9a\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{826464DD-E3C1-36CD-9303-991AD3CF004D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\VSCode\nkd-smart-printer-2026-10-17-word-first\build\windows\x64\pdfium-download\CMakeFiles\9104780cbb7c561ad3c0c65900f3b682\pdfium-download-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VSCode\nkd-smart-printer-2026-10-17-word-first\build\windows\x64\pdfium-download\CMakeFiles\9104780cbb7c561ad3c0c65900f3b682\pdfium-download-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VSCode\nkd-smart-printer-2026-10-17-word-first\build\windows\x64\pdfium-download\CMakeFiles\9104780cbb7c561ad3c0c65900f3b682\pdfium-download-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VSCode\nkd-smart-printer-2026-10-17-word-first\build\windows\x64\pdfium-download\CMakeFiles\9104780cbb7c561ad3c0c65900f3b682\pdfium-download-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VSCode\nkd-smart-printer-2026-10-17-word-first\build\windows\x64\pdfium-download\CMakeFiles\9104780cbb7c561ad3c0c65900f3b682\pdfium-download-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VSCode\nkd-smart-printer-2026-10-17-word-first\build\windows\x64\pdfium-download\CMakeFiles\9104780cbb7c561ad3c0c65900f3b682\pdfium-download-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VSCode\nkd-smart-printer-2026-10-17-word-first\build\windows\x64\pdfium-download\CMakeFiles\9104780cbb7c561ad3c0c65900f3b682\pdfium-download-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VSCode\nkd-smart-printer-2026-10-17-word-first\build\windows\x64\pdfium-download\CMakeFiles\9104780cbb7c561ad3c0c65900f3b682\pdfium-download-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VSCode\nkd-smart-printer-2026-10-17-word-first\build\windows\x64\pdfium-download\CMakeFiles\65a0c33ad7fa925b9bdf70163091ec61\pdfium-download-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VSCode\nkd-smart-printer-2026-10-17-word-first\build\windows\x64\pdfium-download\CMakeFiles\0912eed8833c9368d00545d26c7fd104\pdfium-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VSCode\nkd-smart-printer-2026-10-17-word-first\build\windows\x64\pdfium-download\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\VSCode\nkd-smart-printer-2026-10-17-word-first\build\windows\x64\pdfium-download\CMakeFiles\pdfium-download" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DD144315-BDA2-3393-A147-8CA714450801}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

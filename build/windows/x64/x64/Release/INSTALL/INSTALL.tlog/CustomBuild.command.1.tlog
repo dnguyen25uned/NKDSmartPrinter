@@ -1,0 +1,10 @@
+^D:\VSCODE\NKD-SMART-PRINTER-2026-10-17-WORD-FIRST\BUILD\WINDOWS\X64\CMAKEFILES\0FC46A41C31E683B2913F088452EF81D\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

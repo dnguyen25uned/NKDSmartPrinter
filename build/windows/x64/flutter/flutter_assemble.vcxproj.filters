@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\VSCode\nkd-smart-printer-2026-10-17-word-first\build\windows\x64\CMakeFiles\32d9740ce02e10d2f6523e58bebd9f06\flutter_windows.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VSCode\nkd-smart-printer-2026-10-17-word-first\build\windows\x64\CMakeFiles\c0f2de0d2fd46c12ceee3e994ddb1108\flutter_assemble.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\VSCode\nkd-smart-printer-2026-10-17-word-first\windows\flutter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\VSCode\nkd-smart-printer-2026-10-17-word-first\build\windows\x64\flutter\CMakeFiles\flutter_assemble" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{826464DD-E3C1-36CD-9303-991AD3CF004D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

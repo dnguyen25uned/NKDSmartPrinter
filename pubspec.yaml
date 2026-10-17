@@ -1,0 +1,37 @@
+name: nkd_smart_printer
+description: In hai mặt thủ công bằng máy in chỉ in một mặt (Windows).
+publish_to: none
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.0
+  # Xem trước PDF trung thực (render bằng Pdfium). Dùng cho cả xem trước
+  # và render trang để in. Hỗ trợ Windows.
+  pdfx: ^2.6.0
+  # Tạo file PDF cho từng lượt in (từ ảnh trang đã render).
+  pdf: ^3.11.0
+  # Liệt kê máy in và in trực tiếp PDF qua Print Spooler Windows
+  # (không qua hộp thoại hệ thống, để app điều khiển 2 lượt in).
+  printing: ^5.14.0
+  file_picker: ^8.0.0
+  desktop_drop: ^0.5.0
+  shared_preferences: ^2.3.0
+  path_provider: ^2.1.0
+  path: ^1.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/app_logo.png

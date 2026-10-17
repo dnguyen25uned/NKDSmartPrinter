@@ -1,0 +1,1 @@
+ D:\\VSCode\\nkd-smart-printer-2026-10-17-word-first\\.dart_tool\\flutter_build\\2fafff087cc15411a5726c1f69fb67f1\\link_hooks_result.json: 

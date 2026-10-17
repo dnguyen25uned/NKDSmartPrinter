@@ -137,4 +137,5 @@ App **không** tự tải file cài LibreOffice (~300MB) trong lúc build/chạy
 - `test/` — unit test (thứ tự trang, phạm vi trang, đóng sách, máy trạng thái)
   + kiểm thử tích hợp DOCX → PDF (bỏ qua nếu máy chưa có engine chuyển đổi).
 #   N K D S m a r t P r i n t e r  
+ #   N K D S m a r t P r i n t e r  
  

@@ -1,0 +1,10 @@
+^D:\VSCODE\NKD-SMART-PRINTER-2026-10-17-WORD-FIRST\BUILD\WINDOWS\X64\CMAKEFILES\0FC46A41C31E683B2913F088452EF81D\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/VSCode/nkd-smart-printer-2026-10-17-word-first/windows -BD:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/NKD_Smart_Printer.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

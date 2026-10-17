@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/pdfium-download/CMakeFiles/pdfium-download"
+		},
+		{
+			"file" : "D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/pdfium-download/CMakeFiles/0912eed8833c9368d00545d26c7fd104/pdfium-download.rule"
+		},
+		{
+			"file" : "D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/pdfium-download/CMakeFiles/65a0c33ad7fa925b9bdf70163091ec61/pdfium-download-complete.rule"
+		},
+		{
+			"file" : "D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/pdfium-download/CMakeFiles/9104780cbb7c561ad3c0c65900f3b682/pdfium-download-build.rule"
+		},
+		{
+			"file" : "D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/pdfium-download/CMakeFiles/9104780cbb7c561ad3c0c65900f3b682/pdfium-download-configure.rule"
+		},
+		{
+			"file" : "D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/pdfium-download/CMakeFiles/9104780cbb7c561ad3c0c65900f3b682/pdfium-download-download.rule"
+		},
+		{
+			"file" : "D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/pdfium-download/CMakeFiles/9104780cbb7c561ad3c0c65900f3b682/pdfium-download-install.rule"
+		},
+		{
+			"file" : "D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/pdfium-download/CMakeFiles/9104780cbb7c561ad3c0c65900f3b682/pdfium-download-mkdir.rule"
+		},
+		{
+			"file" : "D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/pdfium-download/CMakeFiles/9104780cbb7c561ad3c0c65900f3b682/pdfium-download-patch.rule"
+		},
+		{
+			"file" : "D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/pdfium-download/CMakeFiles/9104780cbb7c561ad3c0c65900f3b682/pdfium-download-test.rule"
+		},
+		{
+			"file" : "D:/VSCode/nkd-smart-printer-2026-10-17-word-first/build/windows/x64/pdfium-download/CMakeFiles/9104780cbb7c561ad3c0c65900f3b682/pdfium-download-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"pdfium-download"
+		],
+		"name" : "pdfium-download"
+	}
+}

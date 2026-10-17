@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\VSCode\nkd-smart-printer-2026-10-17-word-first\build\windows\x64\pdfium-download\CMakeFiles\0912eed8833c9368d00545d26c7fd104\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DD144315-BDA2-3393-A147-8CA714450801}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
